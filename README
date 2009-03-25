@@ -1,1 +1,30 @@
-Hello
+v0.1 README
+
+jBanner is a jQuery plugin for displaying Slideshows and Rotating Banners from an unordered list.
+
+EXAMPLE
+-------
+[include]
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jbanner.js"></script>
+
+[html]
+<ul id="banner">
+  <li><a href="link1.html"><img alt="Image 1" src="image1.jpg" /></a></li>
+  <li><a href="link2.html"><img alt="Image 2" src="image2.jpg" /></a></li>
+  <li><a href="link3.html" target="_blank"><img alt="Image 3" src="image3.jpg" /></a></li>
+</ul>
+
+[javascript]
+<script type="text/javascript">
+  // Basic Call
+  $("ul#banner").jBanner();
+
+  // Advanced Call
+  // Sets a custom height, width, padding, and turns captions off
+  $("ul#banner").jBanner({height:280,width:420,caption:false,padding:5});
+
+  // Turns captions on with a caption height of 35px, a transition
+  // speed of 2 seconds, and a transition delay of 5 seconds
+  $("ul#banner").jBanner({caption:true,cheight:35,speed:2000,delay:5000});
+</script>
