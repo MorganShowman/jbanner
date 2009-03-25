@@ -2,6 +2,16 @@
 
 jBanner is a jQuery plugin for displaying Slideshows and Rotating Banners from an unordered list.
 
+SETTINGS
+--------
+height	-- height of images
+width	-- width of images
+padding	-- padding between images
+caption	-- display caption? true or false
+cheight	-- height of caption
+delay	-- transition delay
+speed	-- transition speed
+
 EXAMPLE
 -------
 [include]
